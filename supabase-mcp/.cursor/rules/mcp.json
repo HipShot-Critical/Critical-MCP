@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "./supabase_mcp/docker",
+      "args": ["run", "--rm", "-i", "-e", "SUPABASE_URL", "-e", "SUPABASE_SERVICE_KEY", "mcp/supabase"],
+      "env": {
+        "SUPABASE_URL": "https://unmbyghvuyukmobbtlll.supabase.co",
+        "SUPABASE_SERVICE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVubWJ5Z2h2dXl1a21vYmJ0bGxsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAwODU2MDgsImV4cCI6MjA2NTY2MTYwOH0.8kSOkWexa2FtS7zvGo0TykMfTaXm2xnp2EOIrU38E8E"
+      }
+    }
+  }
+}
